@@ -74,7 +74,7 @@ h3{
   }
   
    .foot-text a p{
-        font-size: 20px;
+        font-size: 15px;
     }
   
     /* Social Icons */
@@ -104,7 +104,7 @@ h3{
     }
   
    .foot-text a p{
-        font-size: 15px;
+        font-size: 12px;
     }
   
     /* Social Icons */
@@ -291,17 +291,17 @@ body {
     font-style: italic;
   }
   @font-face {
-    font-family: "ROBOTO-CONDENSED";
-    src: url("../fonts/ROBOTO-CONDENSED.woff") format("woff"),
-    url("../fonts/ROBOTO-CONDENSED.woff") format("woff");
+    font-family: "ROBOTO-BOLDCONDENSED";
+    src: url("../fonts/ROBOTO-BOLDCONDENSED.woff") format("woff"),
+    url("../fonts/ROBOTO-BOLDCONDENSED.woff") format("woff");
     font-weight: bold;
     font-stretch: condensed;
     font-style: normal;
   }
   @font-face {
-    font-family: "ROBOTO-CONDENSEDITALIC";
-    src: url("../fonts/ROBOTO-CONDENSEDITALIC.woff") format("woff"),
-    url("../fonts/ROBOTO-CONDENSEDITALIC.woff") format("woff");
+    font-family: "ROBOTO-BOLDCONDENSEDITALIC";
+    src: url("../fonts/ROBOTO-BOLDCONDENSEDITALIC.woff") format("woff"),
+    url("../fonts/ROBOTO-BOLDCONDENSEDITALIC.woff") format("woff");
     font-weight: bold;
     font-stretch: condensed;
     font-style: italic;
