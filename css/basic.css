@@ -258,48 +258,48 @@ body {
 /* RobotoBlack */
   @font-face {
     font-family: "ROBOTO-BLACK";
-    src: url("../fonts/ROBOTO-BLACK.woff") format("woff"),
-    url("../fonts/ROBOTO-BLACK.woff") format("woff");
+    src: url("fonts/ROBOTO-BLACK.woff") format("woff"),
+    url("/fonts/ROBOTO-BLACK.woff") format("woff");
     font-weight: bold;
     font-stretch: normal;
     font-style: normal;
   }
   @font-face {
     font-family: "ROBOTO-BLACKITALIC";
-    src: url("../fonts/ROBOTO-BLACKITALIC.woff") format("woff"),
-    url("../fonts/ROBOTO-BLACKITALIC.woff") format("woff");
+    src: url("fonts/ROBOTO-BLACKITALIC.woff") format("woff"),
+    url("/fonts/ROBOTO-BLACKITALIC.woff") format("woff");
     font-weight: bold;
     font-stretch: normal;
     font-style: italic;
   }
   @font-face {
     font-family: "ROBOTO-BOLD";
-    src: url("../fonts/ROBOTO-BOLD.woff") format("woff"),
-    url("../fonts/ROBOTO-BOLD.woff") format("woff");
+    src: url("fonts/ROBOTO-BOLD.woff") format("woff"),
+    url("/fonts/ROBOTO-BOLD.woff") format("woff");
     font-weight: bold;
     font-stretch: normal;
     font-style: normal;
   }
   @font-face {
     font-family: "ROBOTO-BOLDITALIC";
-    src: url("../fonts/ROBOTO-BOLDITALIC.woff") format("woff"),
-    url("../fonts/ROBOTO-BOLDITALIC.woff") format("woff");
+    src: url("fonts/ROBOTO-BOLDITALIC.woff") format("woff"),
+    url("/fonts/ROBOTO-BOLDITALIC.woff") format("woff");
     font-weight: bold;
     font-stretch: normal;
     font-style: italic;
   }
   @font-face {
     font-family: "ROBOTO-BOLDCONDENSED";
-    src: url("../fonts/ROBOTO-BOLDCONDENSED.woff") format("woff"),
-    url("../fonts/ROBOTO-BOLDCONDENSED.woff") format("woff");
+    src: url("fonts/ROBOTO-BOLDCONDENSED.woff") format("woff"),
+    url("/fonts/ROBOTO-BOLDCONDENSED.woff") format("woff");
     font-weight: bold;
     font-stretch: condensed;
     font-style: normal;
   }
   @font-face {
     font-family: "ROBOTO-BOLDCONDENSEDITALIC";
-    src: url("../fonts/ROBOTO-BOLDCONDENSEDITALIC.woff") format("woff"),
-    url("../fonts/ROBOTO-BOLDCONDENSEDITALIC.woff") format("woff");
+    src: url("fonts/ROBOTO-BOLDCONDENSEDITALIC.woff") format("woff"),
+    url("/fonts/ROBOTO-BOLDCONDENSEDITALIC.woff") format("woff");
     font-weight: bold;
     font-stretch: condensed;
     font-style: italic;
@@ -307,48 +307,48 @@ body {
 /* CretoDisplayBlack */
   @font-face {
     font-family: "CREATODISPLAY-BLACK";
-    src: url("../fonts/CREATODISPLAY-BLACK.woff") format("woff"),
-    url("../fonts/CREATODISPLAY-BLACK.woff") format("woff");
+    src: url("fonts/CREATODISPLAY-BLACK.woff") format("woff"),
+    url("/fonts/CREATODISPLAY-BLACK.woff") format("woff");
     font-weight: bold;
     font-stretch: normal;
     font-style: normal;
   }
   @font-face {
     font-family: "CREATODISPLAY-BLACKITALIC";
-    src: url("../fonts/CREATODISPLAY-BLACKITALIC.woff") format("woff"),
-    url("../fonts/CREATODISPLAY-BLACKITALIC.woff") format("woff");
+    src: url("fonts/CREATODISPLAY-BLACKITALIC.woff") format("woff"),
+    url("/fonts/CREATODISPLAY-BLACKITALIC.woff") format("woff");
     font-weight: bold;
     font-stretch: normal;
     font-style: italic;
   }
   @font-face {
     font-family: "CREATODISPLAY-BOLD";
-    src: url("../fonts/CREATODISPLAY-BOLD.woff") format("woff"),
-    url("../fonts/CREATODISPLAY-BOLD.woff") format("woff");
+    src: url("fonts/CREATODISPLAY-BOLD.woff") format("woff"),
+    url("/fonts/CREATODISPLAY-BOLD.woff") format("woff");
     font-weight: bold;
     font-stretch: normal;
     font-style: normal;
   }
   @font-face {
     font-family: "CREATODISPLAY-BOLDITALIC";
-    src: url("../fonts/CREATODISPLAY-BOLDITALIC.woff") format("woff"),
-    url("../fonts/CREATODISPLAY-BOLDITALIC.woff") format("woff");
+    src: url("fonts/CREATODISPLAY-BOLDITALIC.woff") format("woff"),
+    url("/fonts/CREATODISPLAY-BOLDITALIC.woff") format("woff");
     font-weight: bold;
     font-stretch: normal;
     font-style: italic;
   }
   @font-face {
     font-family: "CREATODISPLAY-EXTRABOLD";
-    src: url("../fonts/CREATODISPLAY-EXTRABOLD.woff") format("woff"),
-    url("../fonts/CREATODISPLAY-EXTRABOLD.woff") format("woff");
+    src: url("fonts/CREATODISPLAY-EXTRABOLD.woff") format("woff"),
+    url("/fonts/CREATODISPLAY-EXTRABOLD.woff") format("woff");
     font-weight: bolder;
     font-stretch: normal;
     font-style: normal;
   }
   @font-face {
     font-family: "CREATODISPLAY-EXTRABOLDITALIC";
-    src: url("../fonts/CREATODISPLAY-EXTRABOLDITALIC.woff") format("woff"),
-    url("../fonts/CREATODISPLAY-EXTRABOLDITALIC.woff") format("woff");
+    src: url("fonts/CREATODISPLAY-EXTRABOLDITALIC.woff") format("woff"),
+    url("/fonts/CREATODISPLAY-EXTRABOLDITALIC.woff") format("woff");
     font-weight: bolder;
     font-stretch: normal;
     font-style: italic;
@@ -359,32 +359,32 @@ body {
 /* CretoDisplay */
 @font-face {
     font-family: "CREATODISPLAY-REGULAR";
-    src: url("../fonts/CREATODISPLAY-REGULAR.woff") format("woff"),
-    url("../fonts/CREATODISPLAY-REGULAR.woff") format("woff");
+    src: url("fonts/CREATODISPLAY-REGULAR.woff") format("woff"),
+    url("/fonts/CREATODISPLAY-REGULAR.woff") format("woff");
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
   }
   @font-face {
     font-family: "CREATODISPLAY-REGULARITALIC";
-    src: url("../fonts/CREATODISPLAY-REGULARITALIC.woff") format("woff"),
-    url("../fonts/CREATODISPLAY-REGULARITALIC.woff") format("woff");
+    src: url("fonts/CREATODISPLAY-REGULARITALIC.woff") format("woff"),
+    url("/fonts/CREATODISPLAY-REGULARITALIC.woff") format("woff");
     font-weight: normal;
     font-stretch: normal;
     font-style: italic;
   }
   @font-face {
     font-family: "CREATODISPLAY-MEDIUM";
-    src: url("../fonts/CREATODISPLAY-MEDIUM.woff") format("woff"),
-    url("../fonts/CREATODISPLAY-MEDIUM.woff") format("woff");
+    src: url("fonts/CREATODISPLAY-MEDIUM.woff") format("woff"),
+    url("/fonts/CREATODISPLAY-MEDIUM.woff") format("woff");
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
   }
   @font-face {
     font-family: "CREATODISPLAY-MEDIUMITALIC";
-    src: url("../fonts/CREATODISPLAY-MEDIUMITALIC.woff") format("woff"),
-    url("../fonts/CREATODISPLAY-MEDIUMITALIC.woff") format("woff");
+    src: url("fonts/CREATODISPLAY-MEDIUMITALIC.woff") format("woff"),
+    url("/fonts/CREATODISPLAY-MEDIUMITALIC.woff") format("woff");
     font-weight: normal;
     font-stretch: normal;
     font-style: italic;
@@ -392,48 +392,48 @@ body {
 /* Roboto */
 @font-face {
     font-family: "ROBOTO-REGULAR";
-    src: url("../fonts/ROBOTO-REGULAR.woff") format("woff"),
-    url("../fonts/ROBOTO-REGULAR.woff") format("woff");
+    src: url("fonts/ROBOTO-REGULAR.woff") format("woff"),
+    url("/fonts/ROBOTO-REGULAR.woff") format("woff");
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
   }
   @font-face {
     font-family: "ROBOTO-ITALIC";
-    src: url("../fonts/ROBOTO-ITALIC.woff") format("woff"),
-    url("../fonts/ROBOTO-ITALIC.woff") format("woff");
+    src: url("fonts/ROBOTO-ITALIC.woff") format("woff"),
+    url("/fonts/ROBOTO-ITALIC.woff") format("woff");
     font-weight: normal;
     font-stretch: normal;
     font-style: italic;
   }
   @font-face {
     font-family: "ROBOTO-MEDIUM";
-    src: url("../fonts/ROBOTO-MEDIUM.woff") format("woff"),
-    url("../fonts/ROBOTO-MEDIUM.woff") format("woff");
+    src: url("fonts/ROBOTO-MEDIUM.woff") format("woff"),
+    url("/fonts/ROBOTO-MEDIUM.woff") format("woff");
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
   }
   @font-face {
     font-family: "ROBOTO-MEDIUMITALIC";
-    src: url("../fonts/ROBOTO-MEDIUMITALIC.woff") format("woff"),
-    url("../fonts/ROBOTO-MEDIUMITALIC.woff") format("woff");
+    src: url("fonts/ROBOTO-MEDIUMITALIC.woff") format("woff"),
+    url("/fonts/ROBOTO-MEDIUMITALIC.woff") format("woff");
     font-weight: normal;
     font-stretch: normal;
     font-style: italic;
   }
   @font-face {
     font-family: "ROBOTO-CONDENSED";
-    src: url("../fonts/ROBOTO-CONDENSED.woff") format("woff"),
-    url("../fonts/ROBOTO-CONDENSED.woff") format("woff");
+    src: url("fonts/ROBOTO-CONDENSED.woff") format("woff"),
+    url("/fonts/ROBOTO-CONDENSED.woff") format("woff");
     font-weight: normal;
     font-stretch: condensed;
     font-style: normal;
   }
   @font-face {
     font-family: "ROBOTO-CONDENSEDITALIC";
-    src: url("../fonts/ROBOTO-CONDENSEDITALIC.woff") format("woff"),
-    url("../fonts/ROBOTO-CONDENSEDITALIC.woff") format("woff");
+    src: url("fonts/ROBOTO-CONDENSEDITALIC.woff") format("woff"),
+    url("/fonts/ROBOTO-CONDENSEDITALIC.woff") format("woff");
     font-weight: normal;
     font-stretch: condensed;
     font-style: italic;
@@ -441,8 +441,8 @@ body {
 /* RabbidHighway */
 @font-face {
     font-family: "RABBIDHIGHWAYSIGNII";
-    src: url("../fonts/RABBIDHIGHWAYSIGNII.woff") format("woff"),
-    url("../fonts/RABBIDHIGHWAYSIGNII.woff") format("woff");
+    src: url("fonts/RABBIDHIGHWAYSIGNII.woff") format("woff"),
+    url("/fonts/RABBIDHIGHWAYSIGNII.woff") format("woff");
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
