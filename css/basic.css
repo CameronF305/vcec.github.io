@@ -1,3 +1,7 @@
+body {
+    background-color: #666666;
+}
+
 p{
     font-family: "RABBIDHIGHWAYSIGNII";
     font-size: 20px;
@@ -246,10 +250,6 @@ hr {
   html {
     scroll-behavior: smooth;
   }
-
-body {
-    background-color: #666666;
-}
 
 /*/ -- Fonts -- /*/
 
