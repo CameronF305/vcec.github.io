@@ -1,0 +1,41 @@
+.homehead {
+    width: 100%;
+    overflow: hidden;
+    margin-top: auto;
+    background-color: #ffc342;
+    max-width: auto;
+    background-attachment: fixed;
+  }
+  .frame {
+    width: 100%;
+    height: 250px;
+    position: relative;
+  }
+  img.logo {
+    width: 497px;
+    height: 190.4px;
+    max-height: 100%;
+    max-width: 100%;
+    min-width: 248.5px;
+    min-height: 95.2px;
+    position: absolute;
+    overflow: hidden;
+    object-fit: contain;
+    top: 10%;
+    bottom: 10%;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+    
+  .header {
+    background-color: #f1f1f1;
+    padding: 30px;
+    text-align: center;
+    margin-top: auto;
+  }
+  
+  /* Content */
+  .welcome {
+    padding-top: 5px;
+  }
