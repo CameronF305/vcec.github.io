@@ -117,9 +117,6 @@
       background-color: rgb(31,31,31);
       color: white;
     }
-  .dropdown {
-    overflow: hidden;
-  }
   .hamburger{
     display: none;
     cursor: pointer;
@@ -142,6 +139,7 @@
       max-width: auto;
       -webkit-justify-content: center;
       justify-content: center;
+      max-height: 70px;
     }  
    .nav-menu {
       margin: 0;
@@ -155,45 +153,13 @@
       display: flex;
       justify-content: center;
     }
-    .nav-drop-item {
-      flex: 1;
-      display: flex;
-      justify-content: center;
-      float: left;
-      overflow: hidden;
-      border-radius: 5px;
-    }
-    .nav-drop-content {
-      display: none;
-      position: absolute;
-      background-color: rgb(0, 153, 255);
-      border-radius: 5px;
-      min-width: 160px;
-      font-size: 15px;
-      z-index: 1;
-      margin-top: 76px;
-      transition: all 0.3s ease-in-out;
-    }
-    .nav-drop-item:hover .nav-drop-content {
-      display: block;
-      transition: all 0.3s ease-in-out;
-    }
-    .nav-drop-item .nav-dropbtn {
-      margin: 0;
-    }
     .navbar ul li a {
       float: left;
       display: block;
-      color: white;
       margin: 5px;
-      padding: 15px 20px;
+      padding: 15px 15px;
     }
     .btn {
-      border: none;
-      padding: 16px 32px;
-      margin: 4px 2px;
-    }
-    .nav-dropbtn {
       border: none;
       padding: 16px 32px;
       margin: 4px 2px;
@@ -203,9 +169,39 @@
       padding: 16px 32px;
       margin: 4px 2px;
     }
-  
+    /*/ PC Dropdown /*/
+    .nav-drop-item {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      float: left;
+      overflow: hidden;
+      border-radius: 5px;
+      min-width: 167px;
+    }
+    .nav-drop-content {
+      display: none;
+      position: absolute;
+      font-size: 15px;
+      z-index: 1;
+      margin-top: 56px;
+      transition: all 0.3s ease-in-out;
+    }
+    .nav-drop-item:hover .nav-drop-content {
+      display: block;
+      transition: all 0.3s ease-in-out;
+    }
+    .nav-drop-item .nav-dropbtn {
+      margin: 0;
+    }
+    .nav-dropbtn {
+      border: none;
+      padding: 16px 32px;
+      margin: 4px 2px;
+    }
   }
   @media only screen and (max-width: 887px){
+    /*/ Mobile Navagation /*/
     .hamburger{
       display: block;
     }
@@ -255,6 +251,27 @@
       border: none;
       padding: 16px 32px;
       margin: 4px 2px;
+    }
+    /*/ Mobile Dropdown /*/
+    .nav-drop-content{
+      position: fixed;
+      left: -100%;
+      width: 100%;
+      gap: 0;
+      flex-direction: column;
+      background-color: rgb(57, 126, 255);
+      text-align: center;
+      transition: 0.3s;
+    }
+    #dropBtn {
+      background-color: rgb(57, 126, 255);
+    }
+    #dropBtn:hover {
+      background-color: rgb(255, 255, 255);
+    }
+    .nav-drop-content.active{
+      left: 0;
+      align-items: center;
     }
   }
   

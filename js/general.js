@@ -1,4 +1,4 @@
-//Mobile Navagation
+//Mobile Navagation Bar
 const hamburger = document.querySelector(".hamburger");
 const navMenu = document.querySelector(".nav-menu");
 
@@ -12,6 +12,23 @@ document.querySelectorAll(".btn").forEach(n => n. addEventListener("click", () =
     navMenu.classList.remove("active");
 }))
 
+//Mobile Dropdown Menu
+
+const mDropdown = document.querySelector(".nav-drop-item");
+const navDropMenu = document.querySelector(".nav-drop-content");
+const navDropBtn = document.querySelector(".nav-drop-item.active");
+
+mDropdown.addEventListener("click", () => {
+    mDropdown.classList.toggle("active");
+    navDropMenu.classList.toggle("active");
+    navDropBtn.classList.toggle("active");
+})
+
+document.querySelectorAll(".btn").forEach(n => n. addEventListener("click", () => {
+    mDropdown.classList.remove("active");
+    navDropMenu.classList.remove("active");
+    navDropBtn.classList.remove("active");
+}))
 //Back to top
 var target = document.querySelector("footer");
 
