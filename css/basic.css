@@ -1,6 +1,12 @@
+/*/// --- BASIC CSS --- ///*/
+
+/*/ -- Body -- /*/
+
 body {
     background-color: #666666;
 }
+
+/*/ -- Text -- /*/
 
 p{
     font-family: "RABBIDHIGHWAYSIGNII";
@@ -44,6 +50,8 @@ h3{
     text-shadow: 1px 1px 7px black, -1px -1px 7px black;
 }
 
+/*/ -- Lists -- /*/
+
 ul {
     list-style-type: square;
 }
@@ -69,56 +77,132 @@ li{
     align-items: center;
     display: flex;
     flex-wrap: wrap;
-  }
-  .footer-container {
+}
+.footer-container {
     text-align: center;
     display: flex;
-  }
-  .foot-sponsors {
+}
+.foot-sponsors {
     height: fit-content;
     justify-content: center;
     align-items:center ;
     gap: 60px;
     display: flex;
-  }
-
-.foot-text {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
-
- .foot-text a p{
+.foot-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foot-text a p{
     font-weight: normal;
     font-style: normal;
-      color: white;
-      text-align: center;
-      letter-spacing: auto;
-      word-spacing: auto;
-      line-height: auto;
-      text-shadow: 0px 0px 0px black, 0px 0px 0px black;
-  }
+    color: white;
+    text-align: center;
+    letter-spacing: auto;
+    word-spacing: auto;
+    line-height: auto;
+    text-shadow: 0px 0px 0px black, 0px 0px 0px black;
+}
 
-   /* PC/Mobile Editions */
+/*/ -- Dividers -- /*/
 
-  @media only screen and (min-width:888px) {
+hr {
+    width:100%;
+    border: 1px solid #202020;
+    background-color: #202020;
+    box-shadow: 1px 1px 1px 1px rgb(0, 0, 0);
+}
+.long-div {
+    width:100%;
+    background-color: aliceblue;
+    border:1px solid aliceblue;
+    border-radius: 2px;
+    color: aliceblue;
+    margin: 15px 0px;
+    box-shadow: 1px 1px 1px 1px snow;
+}
+.short-div {
+    background-color: aliceblue;
+    border:1px solid aliceblue;
+    border-radius: 2px;
+    color: aliceblue;
+    width: 86%;
+    margin: 15px 7%;
+    box-shadow: 1px 1px 1px 1px snow;
+}
+.shorter-div {
+    background-color: aliceblue;
+    border:1px solid aliceblue;
+    border-radius: 2px;
+    color: aliceblue;
+    width: 60%;
+    margin: 15px 20%;
+    box-shadow: 1px 1px 1px 1px snow;
+}
+
+/*/ -- BACK TO TOP -- /*/
+.scrollToTop{
+    transform: translateY(100px);
+    transition: all 0.4s ease;
+    cursor: pointer;
+    position: fixed;
+    z-index: 40;
+}
+#stt {
+    background-color: black;
+    text-align: center;
+    text-decoration: none;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-box-shadow: rgba(0,0,0,0.8) 0px 0 0px;
+    -moz-box-shadow: rgba(0,0,0,0.8) 0 0 0px;
+    box-shadow: rgba(0,0,0,0.8) 0 0 0px;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+}
+.bi-chevron-double-up {
+    color: white;
+    background-color: #181818;
+}
+.showScroll {
+    opacity: 1;
+    transform: translateY(-75px);
+}
+#stt:hover {
+    opacity: 100%;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    -webkit-box-shadow: rgba(0,0,0,0.8) 0px 0 10px;
+    -moz-box-shadow: rgba(0,0,0,0.8) 0 0 10px;
+    box-shadow: rgba(0,0,0,0.8) 0 0 10px;
+}
+
+/*/// --- SCREEN OPTIMIZATIONS --- ///*/
+
+/*/ -- PC -- /*/
+
+@media only screen and (min-width:888px) {
     p {
         margin: 0 90px;
     }
     .footer {
-      margin-bottom: auto;
-      height: fit-content;
+        margin-bottom: auto;
+        height: fit-content;
     }
     .footer-container {
-      justify-content: center;
-      align-items: center;
-      padding: auto 150px;
+        justify-content: center;
+        align-items: center;
+        padding: auto 150px;
     }
   
-  .foot-text {
-    height: 75px;
-    width: fit-content;
-  }
+    .foot-text {
+        height: 75px;
+        width: fit-content;
+    }
   
    .foot-text a p{
         font-size: 15px;
@@ -145,12 +229,25 @@ li{
 
     /* Social Icons */
     #bi {
-      padding: 10px 10px;
-      font-size: 30px;
-      width: 30px;
+        padding: 10px 10px;
+        font-size: 30px;
+        width: 30px;
     }
-  }
-  @media only screen and (max-width:887px) {
+    /*/ -- Scroll to top -- /*/
+    .scrollToTop {
+        bottom: 30px;
+        right: 30px;
+    }
+    #stt {
+        font-size: 35px;
+        width: 60px;
+        height: 60px;
+        padding: 12.5px;
+        opacity: 80%;
+    }
+}
+  /*/ -- Mobile -- /*/
+@media only screen and (max-width:887px) {
     .footer {
       margin-bottom: auto;
       height: fit-content;
@@ -193,148 +290,45 @@ li{
   
     /* Social Icons */
     #bi {
-      padding:7.5px 7.5px;
-      font-size: 20px;
-      height: 30px;
-      width: 30px;
+        padding:7.5px 7.5px;
+        font-size: 20px;
+        height: 30px;
+        width: 30px;
     }
-  }
-
-
-/*/ -- Dividers -- /*/
-
-hr {
-    width:100%;
-    border: 1px solid #202020;
-    background-color: #202020;
-    box-shadow: 1px 1px 1px 1px rgb(0, 0, 0);
-}
-
-.long-div {
-  width:100%;
-  background-color: aliceblue;
-  border:1px solid aliceblue;
-  border-radius: 2px;
-  color: aliceblue;
-  margin: 15px 0px;
-  box-shadow: 1px 1px 1px 1px snow;
-}
-
-.short-div {
-  background-color: aliceblue;
-  border:1px solid aliceblue;
-  border-radius: 2px;
-  color: aliceblue;
-  width: 86%;
-  margin: 15px 7%;
-  box-shadow: 1px 1px 1px 1px snow;
-}
-.shorter-div {
-  background-color: aliceblue;
-  border:1px solid aliceblue;
-  border-radius: 2px;
-  color: aliceblue;
-  width: 60%;
-  margin: 15px 20%;
-  box-shadow: 1px 1px 1px 1px snow;
-}
-
-/*/ -- BACK TO TOP -- /*/
-.scrollToTop{
-    transform: translateY(100px);
-    transition: all 0.4s ease;
-    cursor: pointer;
-    position: fixed;
-    z-index: 40;
-  }
-  /* Mobile/PC Optimization */
-  @media only screen and (min-width:888px){
+    /*/ -- Scroll to top -- /*/
     .scrollToTop {
-      bottom: 30px;
-      right: 30px;
+        bottom: 15px;
+        right: 15px;
     }
     #stt {
-      font-size: 35px;
-      width: 60px;
-      height: 60px;
-      padding: 12.5px;
-      opacity: 80%;
+        font-size: 30px;
+        width: 45px;
+        height: 45px;
+        padding: 12.5px;
+        opacity: 50%;
     }
-  }
-  @media only screen and (max-width:887px){
-    .scrollToTop {
-      bottom: 15px;
-      right: 15px;
-    }
-    #stt {
-      font-size: 30px;
-      width: 45px;
-      height: 45px;
-      padding: 12.5px;
-      opacity: 50%;
-    }
-  }
-  #stt {
-    background-color: black;
-    text-align: center;
-    text-decoration: none;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    border-radius: 50%;
-    -webkit-box-shadow: rgba(0,0,0,0.8) 0px 0 0px;
-    -moz-box-shadow: rgba(0,0,0,0.8) 0 0 0px;
-    box-shadow: rgba(0,0,0,0.8) 0 0 0px;
-    transition: all 0.3s ease-in-out;
-    -webkit-transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-  }
-  .bi-chevron-double-up {
-    color: white;
-    background-color: #181818;
-  }
-  
-  .showScroll {
-    opacity: 1;
-    transform: translateY(-75px);
-  }
-  #stt:hover {
-    opacity: 100%;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    border-radius: 20px;
-    -webkit-box-shadow: rgba(0,0,0,0.8) 0px 0 10px;
-    -moz-box-shadow: rgba(0,0,0,0.8) 0 0 10px;
-    box-shadow: rgba(0,0,0,0.8) 0 0 10px;
-  }
-
+}
 
 /*/ -- Custom Scrollbar -- /*/
-/* width */
 ::-webkit-scrollbar {
     width: 7.5px;
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
+}
+::-webkit-scrollbar-track {
     background: #c9c9c9;
-  }
-  
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
+}
+::-webkit-scrollbar-thumb {
     background: #919191;
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
+}
+::-webkit-scrollbar-thumb:hover {
     background: #4d4d4d;
-  }
-  html {
+}
+html {
     scroll-behavior: smooth;
-  }
+}
 
-/*/ -- Fonts -- /*/
+/*/// --- FONTS --- ///*/
 
-/* - Header Fonts - */
+/*/ -- Header Fonts -- /*/
 
 /* RobotoBlack */
   @font-face {
@@ -435,7 +429,7 @@ hr {
     font-style: italic;
   }
 
-/* - Body Fonts - */
+/*/ -- Body Fonts -- /*/
 
 /* CretoDisplay */
 @font-face {
