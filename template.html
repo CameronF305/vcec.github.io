@@ -3,7 +3,7 @@
     <head>
         <!-- How the website will appear on Search Engines -->
         <title> - VCEC</title>
-        <link rel="icon" href="imgs/icon.ico">
+        <link rel="icon" href="imgs/logos/icon.ico">
         <meta name="robots" content="index, follow">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -27,18 +27,103 @@
         <meta property="twitter:image" content="https://thevcec.org/imgs/icon-bg.png"> 
         <!--Styles-->
         <link rel="stylesheet" type="text/css" href="css/basic.css">
+        <link rel="stylesheet" type="text/css" href="css/stickNavbar.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
     </head>
     <body>
-        <h1>Title 1</h1>
-        <h2>Title 2</h2>
-        <h3>Title 3</h3>
-        <p>Hello World!</p>
-        <footer class="footer">
-            <div class="footer-container">
-                <div class="foot-sponsors">
+        <div class="homehead" id="homehead">
+            <div class="frame">
+                <a href="#">
+                    <img src="imgs/logos/vcec-logo-head-alt.png" alt="Virginia Code Education Conference" class="logo">
+                </a>
+            </div>
+        </div>
+        <header id="navbar">
+            <nav class="navbar">
+              <ul class="nav-menu">
+                <li class="nav-item"><a class="activebtn" href="/">Home</a></li>
+                <li class="nav-item"><a class="btn" href="register">Register</a></li>
+                <div class="nav-drop-item">
+                    <button class="nav-dropbtn">Event&nbsp;Info&nbsp;<i class="bi bi-caret-down-fill"></i>
 
+                    </button>
+                    <ul class="nav-drop-content">
+                        <li class="nav-item"><a class="btn" id="dropBtn" href="agenda">Agenda</a></li>
+                        <li class="nav-item"><a class="btn" id="dropBtn" href="education">Education</a></li>
+                        <li class="nav-item"><a class="btn" id="dropBtn" href="networking">Networking&nbsp;Events</a></li>
+                    </ul>
+                    
                 </div>
+                <li class="nav-item"><a class="btn" href="travel">Hotel/Travel</a></li>
+                <!-- Not sure if you'd like an about page <li class="nav-item"><a class="btn" href="about">About</a></li> -->
+                <li class="nav-item"><a class="btn" href="sponsors">Sponsors</a></li>
+                <li class="nav-item"><a class="btn" href="contact">Contact</a></li>
+              </ul>
+              <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+              </div>
+            </nav>
+        </header>
+        <div class="content">
+            <content>
+                <section>
+
+                </section>
+                <div class="scrollToTop">
+                    <a href="#top">
+                      <i id="stt" class="bi bi-chevron-double-up"></i>
+                    </a>
+                </div>
+            </content>
+        </div>
+        <footer class="footer">
+            <div class="foot-sponsor-text">
+                <hr class="foot-div">
+                <div class="foot-text-our-sponsors">
+                    <a href="sponsors" id="footSponsorLink">
+                        <p>OUR&nbsp;SPONSORS</p>
+                    </a>
+                </div>
+                <hr class="foot-div">
+            </div>
+                <div class="foot-sponsors">
+                    <a class="sponsor-foot-img" href="https://awc.org/">
+                        <img src="imgs/sponsors/AWC.png" id="footSponsor" alt="American Wood Council">
+                    </a>
+                    <a class="sponsor-foot-img" href="https://www.selectrontechnologies.com/">
+                        <img src="imgs/sponsors/Selectron.png" id="footSponsor" alt="Selectron">
+                    </a>   
+                    <a class="sponsor-foot-img" href="https://nfsa.org/">
+                        <img src="imgs/sponsors/NFSA.png" id="footSponsor" alt="NFSA">
+                    </a>
+                    <a class="sponsor-foot-img" href="https://www.ul.com/">
+                        <img src="imgs/sponsors/UL.png" id="footSponsor" alt="UL">
+                    </a>
+                    <a class="sponsor-foot-img" href="https://www.midwestfirestopinc.com/">
+                        <img src="imgs/sponsors/midwestfirestop.png" id="footSponsor" alt="Midwest Firestop, Inc.">
+                    </a>
+                    <a class="sponsor-foot-img" href="https://www.avolvesoftware.com/">
+                        <img src="imgs/sponsors/Avolve-Logo-white-LG.png" id="footSponsor" alt="Avolve">
+                    </a>
+                    <a class="sponsor-foot-img" href="https://www.thejoyceagency.com/">
+                        <img src="imgs/sponsors/JoyceAgency.png" id="footSponsor" alt="Joyce Agency">
+                    </a>
+                    <a class="sponsor-foot-img" href="https://www.strongtie.com/">
+                        <img src="imgs/sponsors/simpsonstrongtie.png" id="footSponsor" alt="Simpson Strong-Tie">
+                    </a>
+                    <a class="sponsor-foot-img" href="https://www.vinylsiding.org/">
+                        <img src="imgs/sponsors/vinylsidinginstitute.png" id="footSponsor" alt="Vinyl Siding Institute">
+                    </a>
+                    <a class="sponsor-foot-img" href="https://www.dhcd.virginia.gov/">
+                        <img src="imgs/sponsors/dhcd.png" id="footSponsor" alt="Virginia DHCD">
+                    </a>
+                    <a class="sponsor-foot-img" href="https://leap-va.org/">
+                        <img src="imgs/sponsors/leap.PNG" id="footSponsor" alt="Local Energy Aliance Program">
+                    </a>                     
+                </div>
+            <div class="footer-container">
                 <div class="foot-text">
                     <a>
                         <p>© 2022 Virginia Code Education Conference</p>
@@ -48,5 +133,6 @@
             </div>
         </footer>
         <script src="js/general.js"></script>
+        <script src="js/stickNavbar.js"></script>
     </body>
 </html>
