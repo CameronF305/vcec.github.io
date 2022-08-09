@@ -64,6 +64,7 @@ h3{
     color: #57caff;
     background-color: transparent;
     text-decoration: underline;
+    transition: all 0.3s ease-in-out;
 }
 #link:active {
     color: #ffee00;
