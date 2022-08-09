@@ -39,3 +39,13 @@
   .welcome {
     padding-top: 5px;
   }
+
+  .features {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .feature-head {
+    width: 100%;
+  }
