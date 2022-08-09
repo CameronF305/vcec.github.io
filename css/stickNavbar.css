@@ -84,6 +84,7 @@
   .navbar ul li a:hover {
       background-color: white;
       color: black;
+      text-decoration: none;
     }
       
     .navbar ul li a.active {
