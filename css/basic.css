@@ -463,6 +463,10 @@ hr {
         padding: 12.5px;
         opacity: 50%;
     }
+    /*/ -- Contact Links -- /*/
+    #contactEmail{
+        font-size: 15px;
+    }
 }
 
 /*/ -- Custom Scrollbar -- /*/
