@@ -248,6 +248,12 @@ hr {
     margin: 15px 20%;
     box-shadow: 1px 1px 1px 1px snow;
 }
+.invisible-div { /*/ For Spacing /*/
+    border:1px solid aliceblue;
+    width: 86%;
+    margin: 15px 7%;
+    opacity: 0%;
+}
 
 /*/ -- BACK TO TOP -- /*/
 .scrollToTop{
