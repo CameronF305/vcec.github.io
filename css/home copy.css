@@ -1,10 +1,17 @@
 
   /* Content */
+  .welcome-text {
+    color: white;
+  }
+  .partner-section h3{
+    color: white;
+  }
   .features {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    color: white;
   }
   .feature-head {
     width: 100%;

@@ -2,13 +2,30 @@
 
 /*/ --- Dark Mode -- /*/
 
+.dark-mode {
+    background-color: #666666;
+    color: white;
+}
+
+.dark-mode p {
+    text-shadow: 1px 1px 4px black, -1px -1px 4px black;
+}
+.dark-mode h1 {
+    text-shadow: 1px 1px 10px black, -1px -1px 10px black;
+}
+.dark-mode h2 {
+    text-shadow: 1px 1px 10px black, -1px -1px 10px black;
+}
+.dark-mode h3 {
+    text-shadow: 1px 1px 7px black, -1px -1px 7px black;
+}
 
 /*/ -- Header -- /*/
 .homehead {
     width: 100%;
     overflow: hidden;
     margin-top: auto;
-    background-color: rgba(255, 255, 255, 0.582);
+    background-color: rgba(191, 191, 191);
     max-width: auto;
     background-attachment: fixed;
   }
@@ -43,8 +60,8 @@
 /*/ -- Body -- /*/
 
 body {
-    background-color: #666666;
-    color: white;
+    background-color: rgb(212, 212, 212);
+    color: black;
     /* background-color: #232261; */
 }
 
@@ -54,20 +71,15 @@ p{
     font-family: "RABBIDHIGHWAYSIGNII";
     text-decoration : none;
     text-align: center;
-    text-shadow: 1px 1px 4px black, -1px -1px 4px black;
 }
 .article-section p {
     padding: 10px;
-}
-.article-section {
-    color: white;
 }
 
 h1{
     font-family: "ROBOTO-BLACK";
     font-size: 80px;
     text-decoration : none;
-    text-shadow: 1px 1px 10px black, -1px -1px 10px black;
     text-align: center;
     padding: 10px;
 }
@@ -76,7 +88,6 @@ h2{
     font-size: 60px;
     text-decoration : none;
     text-align: center;
-    text-shadow: 1px 1px 10px black, -1px -1px 10px black;
     padding: 15px;
     line-height: 1.3;
 }
@@ -86,23 +97,22 @@ h3{
     text-decoration : none;
     text-align: center;
     padding: 7px;
-    text-shadow: 1px 1px 7px black, -1px -1px 7px black;
 }
 
 /*/ -- Links -- /*/
 #link {
-    color: #acdeff;
+    color: #4aa0da;
     background-color: transparent;
     text-decoration: none;
     transition: all 0.3s ease-in-out;
 }
 #link:visited {
-    color: #a9c7ff;
+    color: #7799d8;
     background-color: transparent;
     text-decoration: none;
 }
 #link:hover {
-    color: #57caff;
+    color: #039ce4;
     background-color: transparent;
     text-decoration: underline;
     transition: all 0.3s ease-in-out;
