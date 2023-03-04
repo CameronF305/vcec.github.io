@@ -115,6 +115,20 @@ h3{
 
 /*/ -- Lists -- /*/
 
+.dotted-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+.footnote {
+    font-size: 12.5px;
+}
+.footnote a {
+    color: #57caff;
+}
+
 .feature-list li{
     list-style-type:disc;
 }
