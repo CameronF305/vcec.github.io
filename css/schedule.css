@@ -25,3 +25,14 @@
     padding: 7px;
     text-shadow: 1px 1px 7px black, -1px -1px 7px black;
 }
+
+.location h2{
+    padding-bottom: 1px;
+}
+.location p {
+    text-decoration: underline;
+    font-size: 22px;
+    padding-top: 1px;
+    color: #acdeff;
+    padding-bottom: 15px;
+}
