@@ -398,7 +398,7 @@ hr {
     /* Sponsors */
     .foot-sponsors {
         width: 95%;
-        margin: 25px 25px 20px 15px;
+        margin: 25px 2.5% 20px 2.5%;
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
